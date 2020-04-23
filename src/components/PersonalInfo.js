@@ -31,7 +31,6 @@ export default class PersonalInfo extends Component {
           {
             type: 'experiences-list',
             title: 'Experiences',
-            description: 'Optional',
             icon: 'archive',
             items: [
               {
@@ -96,18 +95,24 @@ export default class PersonalInfo extends Component {
             icon: 'comments',
             items: [
               { 
-                authority: 'Michael McDade: Manager',
-                authorityMeta: '316 453 6238'
+                authority: 'Michael McDade - Manager:',
+                authorityMeta: '316-453-6238'
               },
               { 
-                authority: 'Elliot Gallagher: Co-worker',
-                authorityMeta: '508 685 4142'
+                authority: 'Elliot Gallagher - Co-worker:',
+                authorityMeta: '508-685-4142'
               },
               { 
-                authority: 'Libby Corcoran: Co-worker',
-                authorityMeta: '203 919 6852'
+                authority: 'Libby Corcoran - Co-worker:',
+                authorityMeta: '203-919-6852'
               }
             ]
+          },
+          {
+            type: 'tag-list',
+            title: 'Hobbies & Interests',
+            icon: 'cubes',
+            items: ['Music Production', 'Guitar', 'Sketch Art', 'Flow Arts', 'Reading']
           }
         ]}
         branding={false} // or false to hide it.
