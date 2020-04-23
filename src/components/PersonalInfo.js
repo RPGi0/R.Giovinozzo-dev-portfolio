@@ -39,16 +39,16 @@ export default class PersonalInfo extends Component {
                 company: 'Pratt & Whitney',
                 description: 'I leveraged Vue.js and ag-Grid to design new components allowing analysts to view and interact with data on aircraft and engine profiles',
                 companyWebSite: 'https://prattwhitney.com/en',
-                companyMeta: 'Pratt & Whitney strives to design, build, and service the world’s most advanced and unrelenting aircraft engines.',
+                companyMeta: 'Aerospace engine design and maintainence.',
                 datesBetween: '2019.10 - 2020.04',
-                descriptionTags: ['Javascript', 'Vue,js', 'TypeScript', 'ScSS', 'Web APIs', 'JIRA']
+                descriptionTags: ['Javascript', 'Vue.js', 'TypeScript', 'ScSS', 'Web APIs', 'JIRA']
               },
               {
                 title: 'React.js Software Developer',
                 company: 'Direct Wines Inc.',
                 description: 'At this short term contract, I was on boarded to accelerate front-end development in order to meet the deadline for a new release.',
                 companyWebSite: 'https://www.directwinesinc.com/',
-                companyMeta: 'Direct Wines, Inc. is a dynamic, innovative, wine-loving company that helps consumers across the U.S. discover exciting wines that are perfectly suited to their tastes – all with the convenience of home delivery.',
+                companyMeta: 'Wholesale wine distributor',
                 datesBetween: '2019.08 - 2019.09',
                 descriptionTags: ['Javascript', 'React', 'Web APIs']
               },
@@ -57,22 +57,60 @@ export default class PersonalInfo extends Component {
                 company: 'Crates Media Inc.',
                 description: 'I utilized React and Redux to refactor a quiz application for a major New York healthcare provider.',
                 companyWebSite: 'https://crates.media/',
-                companyMeta: 'Crates Media is a Digital Design and Marketing company dedicated to creating bug-free, besoke software soultions; as well as providing web analytics, search engine optimization, and online marketing stratagy services.',
+                companyMeta: 'Digital Design and Marketing',
                 datesBetween: '2019.05 - 2019.08',
                 descriptionTags: ['Javascript', 'React', 'Redux', 'Node', 'Web APIs']
               },
               {
                 title: 'React.js Software Developer',
                 company: 'Athames.com',
-                description: 'I was the lead developer in the migration from legacy PHP systems, to a React front-end utilizing Google cloud on the back-end.',
+                description: 'I was the lead developer in the migration from a legacy PHP cart, to a React front-end utilizing Google cloud on the back-end.',
                 companyWebSite: 'athames.com',
-                companyMeta: 'Athames is a niche online retailer, catering to products such as clothing, jewlery, candles, incents, accessories and more.',
+                companyMeta: 'Niche online retail storefront',
                 datesBetween: '2012.06 - 2012.10'
+              }
+            ]
+          },
+          {
+            type: 'tag-list',
+            title: 'Technologies & Processes',
+            icon: 'rocket',
+            items: ['JavaScript', 'TypeScript', 'React JS', 'Redux', 'Vue JS', 'Node', 'NPM', 'Yarn', 'Express', 'Next.js', 'Google Material UI', 'jQuery', 'Backbone', 'Bootstrap', 'Knockout', 'Mocha', 'Chai', 'Jest', 'Cypress', 'Underscore / LoDash', 'HTML5 / CSS3 / ScSS', 'Git / GitHub / GitFlow', 'RESTful API Integration', 'NoSQL / GraphQL / Apollo', 'SOLID Development Principles'
+]
+          },
+          {
+            type: 'common-list',
+            title: 'Soft Skills & Competencies',
+            icon: 'tasks',
+            items: [
+              { authority: 'Skilled in Scrum & agile methodology' },
+              { authority: 'Standards-driven development practices' },
+              { authority: 'Test Driven Development experience' },
+              { authority: 'Creative solutions; thinking around corners' },
+              { authority: 'Trained in full-stack JavaScript' }
+            ]
+          },
+          {
+            type: 'common-list',
+            title: 'Referneces',
+            icon: 'comments',
+            items: [
+              { 
+                authority: 'Michael McDade: Manager',
+                authorityMeta: '316 453 6238'
+              },
+              { 
+                authority: 'Elliot Gallagher: Co-worker',
+                authorityMeta: '508 685 4142'
+              },
+              { 
+                authority: 'Libby Corcoran: Co-worker',
+                authorityMeta: '203 919 6852'
               }
             ]
           }
         ]}
-        branding={true} // or false to hide it.
+        branding={false} // or false to hide it.
       />
     )
   }

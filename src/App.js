@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './index.css';
 import PersonalInfo from './components/PersonalInfo';
 
 function App() {
